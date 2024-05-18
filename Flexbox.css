@@ -54,14 +54,15 @@ body {
   justify-content: center;
   height: 600px;
   align-items: start;
-  margin-bottom: 500px;
+  margin-bottom: 800px;
 }
 
 .container6{
   display: flex;
   justify-content: center;
-  height: 400px;
-  width: 450px;
+  height: 350px;
+  width: 350px;
+margin-left: 50px;
   align-items: end;
   flex-direction: column;
 
