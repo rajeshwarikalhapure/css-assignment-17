@@ -8,16 +8,71 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    height: 600px;
+    flex-direction: row;
+    margin-bottom: 200px;
+
+
   }
-  
+  .container1{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    align-items: start;
+    margin-bottom: 80px;
+
+}
+.container2{
+  display: flex;
+  justify-content: space-evenly;
+  height: 600px;
+  align-items: start;
+  margin-bottom: 80px;
+
+}
+.container3{
+  display: flex;
+  justify-content: start;
+  height: 600px;
+  align-items: start;
+  padding: 10px;
+  margin-bottom: 80px;
+
+}
+
+.container4{
+  display: flex;
+  justify-content: end;
+  height: 600px;
+  align-items: start;
+  margin-bottom: 80px;
+
+}
+
+.container5{
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  align-items: start;
+  margin-bottom: 500px;
+}
+
+.container6{
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 450px;
+  align-items: end;
+  flex-direction: column;
+
+}
   .card {
     flex: 0 1 300px;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 9px;
     padding: 20px;
+    margin: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -50,4 +105,8 @@ body {
     margin-top: 10px;
   }
   
-  
+  .card:hover{
+    box-shadow: 5px 5px 15px 10px rgb(89, 90, 77);
+    margin: 5px 5px;
+    transition: 200ms;
+}
